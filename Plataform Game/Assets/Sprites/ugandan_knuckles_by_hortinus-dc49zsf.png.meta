@@ -1,0 +1,2272 @@
+fileFormatVersion: 2
+guid: 1f9751ba050840e44bb9b234858cf4ff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2451490891524090118
+    second: ugandan_knuckles_by_hortinus-dc49zsf_24
+  - first:
+      213: 7818704298452558242
+    second: ugandan_knuckles_by_hortinus-dc49zsf_25
+  - first:
+      213: -2326308228384276450
+    second: ugandan_knuckles_by_hortinus-dc49zsf_26
+  - first:
+      213: -108519993543283546
+    second: ugandan_knuckles_by_hortinus-dc49zsf_27
+  - first:
+      213: 8634582966898046745
+    second: ugandan_knuckles_by_hortinus-dc49zsf_28
+  - first:
+      213: 887167310630147209
+    second: ugandan_knuckles_by_hortinus-dc49zsf_29
+  - first:
+      213: -7917427026536300765
+    second: ugandan_knuckles_by_hortinus-dc49zsf_30
+  - first:
+      213: -5351039887606855922
+    second: ugandan_knuckles_by_hortinus-dc49zsf_31
+  - first:
+      213: -5786171270361998989
+    second: ugandan_knuckles_by_hortinus-dc49zsf_32
+  - first:
+      213: -8248119011452041584
+    second: ugandan_knuckles_by_hortinus-dc49zsf_33
+  - first:
+      213: 5811840709888482758
+    second: ugandan_knuckles_by_hortinus-dc49zsf_34
+  - first:
+      213: -9046543966085888900
+    second: ugandan_knuckles_by_hortinus-dc49zsf_35
+  - first:
+      213: -5305699095185623836
+    second: ugandan_knuckles_by_hortinus-dc49zsf_36
+  - first:
+      213: 5533624128325707871
+    second: ugandan_knuckles_by_hortinus-dc49zsf_37
+  - first:
+      213: -6181409681470801628
+    second: ugandan_knuckles_by_hortinus-dc49zsf_38
+  - first:
+      213: 7265127725985486848
+    second: ugandan_knuckles_by_hortinus-dc49zsf_39
+  - first:
+      213: 8476006330243986592
+    second: ugandan_knuckles_by_hortinus-dc49zsf_40
+  - first:
+      213: -4609897902182851800
+    second: ugandan_knuckles_by_hortinus-dc49zsf_41
+  - first:
+      213: 6837693860765116967
+    second: ugandan_knuckles_by_hortinus-dc49zsf_42
+  - first:
+      213: 1706078526538085325
+    second: ugandan_knuckles_by_hortinus-dc49zsf_43
+  - first:
+      213: -4007753063677794285
+    second: ugandan_knuckles_by_hortinus-dc49zsf_44
+  - first:
+      213: 2893101550329816220
+    second: ugandan_knuckles_by_hortinus-dc49zsf_45
+  - first:
+      213: 7632487486965666810
+    second: ugandan_knuckles_by_hortinus-dc49zsf_48
+  - first:
+      213: -8568038243487546778
+    second: ugandan_knuckles_by_hortinus-dc49zsf_49
+  - first:
+      213: 6942411847528006476
+    second: ugandan_knuckles_by_hortinus-dc49zsf_50
+  - first:
+      213: 2763990146888636042
+    second: ugandan_knuckles_by_hortinus-dc49zsf_51
+  - first:
+      213: -313382397216905033
+    second: ugandan_knuckles_by_hortinus-dc49zsf_52
+  - first:
+      213: -5492015191608786959
+    second: ugandan_knuckles_by_hortinus-dc49zsf_53
+  - first:
+      213: 5270014307998094309
+    second: ugandan_knuckles_by_hortinus-dc49zsf_54
+  - first:
+      213: -9158825958544240283
+    second: ugandan_knuckles_by_hortinus-dc49zsf_55
+  - first:
+      213: -2229418720050782704
+    second: ugandan_knuckles_by_hortinus-dc49zsf_56
+  - first:
+      213: -1661685281471279964
+    second: ugandan_knuckles_by_hortinus-dc49zsf_57
+  - first:
+      213: -9129792380142461496
+    second: ugandan_knuckles_by_hortinus-dc49zsf_60
+  - first:
+      213: -6839246043107545444
+    second: ugandan_knuckles_by_hortinus-dc49zsf_61
+  - first:
+      213: 8404405544113337742
+    second: ugandan_knuckles_by_hortinus-dc49zsf_62
+  - first:
+      213: -5905933543245112251
+    second: ugandan_knuckles_by_hortinus-dc49zsf_63
+  - first:
+      213: 7676169156345043357
+    second: ugandan_knuckles_by_hortinus-dc49zsf_64
+  - first:
+      213: 6641010480066531948
+    second: ugandan_knuckles_by_hortinus-dc49zsf_65
+  - first:
+      213: -6231234695444756331
+    second: ugandan_knuckles_by_hortinus-dc49zsf_66
+  - first:
+      213: 7766038829032482787
+    second: ugandan_knuckles_by_hortinus-dc49zsf_67
+  - first:
+      213: 3527899462955764728
+    second: ugandan_knuckles_by_hortinus-dc49zsf_68
+  - first:
+      213: -224910580929991702
+    second: ugandan_knuckles_by_hortinus-dc49zsf_70
+  - first:
+      213: 4845726346403379080
+    second: ugandan_knuckles_by_hortinus-dc49zsf_71
+  - first:
+      213: 7111751667688848001
+    second: ugandan_knuckles_by_hortinus-dc49zsf_96
+  - first:
+      213: -4684664845017405453
+    second: ugandan_knuckles_by_hortinus-dc49zsf_97
+  - first:
+      213: 6587836144737171563
+    second: ugandan_knuckles_by_hortinus-dc49zsf_98
+  - first:
+      213: 2111687034099823652
+    second: ugandan_knuckles_by_hortinus-dc49zsf_99
+  - first:
+      213: -6631449821933947528
+    second: ugandan_knuckles_by_hortinus-dc49zsf_100
+  - first:
+      213: 4576725152113750397
+    second: ugandan_knuckles_by_hortinus-dc49zsf_101
+  - first:
+      213: 3175635943144330927
+    second: ugandan_knuckles_by_hortinus-dc49zsf_102
+  - first:
+      213: -3952699457838421087
+    second: ugandan_knuckles_by_hortinus-dc49zsf_103
+  - first:
+      213: -575678321971935886
+    second: ugandan_knuckles_by_hortinus-dc49zsf_104
+  - first:
+      213: -8501406764099359847
+    second: ugandan_knuckles_by_hortinus-dc49zsf_105
+  - first:
+      213: -5984924531236352497
+    second: ugandan_knuckles_by_hortinus-dc49zsf_106
+  - first:
+      213: -33363750574836767
+    second: ugandan_knuckles_by_hortinus-dc49zsf_107
+  - first:
+      213: 5308731031568287461
+    second: ugandan_knuckles_by_hortinus-dc49zsf_108
+  - first:
+      213: -338353778256641225
+    second: ugandan_knuckles_by_hortinus-dc49zsf_109
+  - first:
+      213: -2070759185157925707
+    second: ugandan_knuckles_by_hortinus-dc49zsf_110
+  - first:
+      213: 5847145846115493681
+    second: ugandan_knuckles_by_hortinus-dc49zsf_111
+  - first:
+      213: 7346445633850826662
+    second: ugandan_knuckles_by_hortinus-dc49zsf_112
+  - first:
+      213: -3297891983442866878
+    second: ugandan_knuckles_by_hortinus-dc49zsf_113
+  - first:
+      213: 6694653551655896435
+    second: ugandan_knuckles_by_hortinus-dc49zsf_114
+  - first:
+      213: 5912478818036660842
+    second: ugandan_knuckles_by_hortinus-dc49zsf_115
+  - first:
+      213: 8384385306166680221
+    second: ugandan_knuckles_by_hortinus-dc49zsf_116
+  - first:
+      213: 8764847153220720074
+    second: ugandan_knuckles_by_hortinus-dc49zsf_117
+  - first:
+      213: -6877055794465268471
+    second: ugandan_knuckles_by_hortinus-dc49zsf_118
+  - first:
+      213: 3860460459911710554
+    second: ugandan_knuckles_by_hortinus-dc49zsf_119
+  - first:
+      213: -6939783563009623203
+    second: ugandan_knuckles_by_hortinus-dc49zsf_120
+  - first:
+      213: -6342195062795524554
+    second: ugandan_knuckles_by_hortinus-dc49zsf_121
+  - first:
+      213: -8946356218937119965
+    second: ugandan_knuckles_by_hortinus-dc49zsf_122
+  - first:
+      213: -2501867195075496911
+    second: ugandan_knuckles_by_hortinus-dc49zsf_123
+  - first:
+      213: 6499925944344801333
+    second: ugandan_knuckles_by_hortinus-dc49zsf_124
+  - first:
+      213: 8135001857237288900
+    second: ugandan_knuckles_by_hortinus-dc49zsf_125
+  - first:
+      213: -5159230064062581175
+    second: ugandan_knuckles_by_hortinus-dc49zsf_126
+  - first:
+      213: -1261969953053580306
+    second: ugandan_knuckles_by_hortinus-dc49zsf_127
+  - first:
+      213: 1648243580040632724
+    second: ugandan_knuckles_by_hortinus-dc49zsf_128
+  - first:
+      213: -3351465204492158485
+    second: ugandan_knuckles_by_hortinus-dc49zsf_129
+  - first:
+      213: 3246575104036907409
+    second: ugandan_knuckles_by_hortinus-dc49zsf_130
+  - first:
+      213: -8018854048169729374
+    second: ugandan_knuckles_by_hortinus-dc49zsf_131
+  - first:
+      213: 3549723013457422222
+    second: ugandan_knuckles_by_hortinus-dc49zsf_132
+  - first:
+      213: -5409989976455624834
+    second: ugandan_knuckles_by_hortinus-dc49zsf_133
+  - first:
+      213: -3852775007721172402
+    second: ugandan_knuckles_by_hortinus-dc49zsf_134
+  - first:
+      213: 6704061931605578584
+    second: ugandan_knuckles_by_hortinus-dc49zsf_135
+  - first:
+      213: -2168590585145577009
+    second: ugandan_knuckles_by_hortinus-dc49zsf_136
+  - first:
+      213: -6265940122425151336
+    second: ugandan_knuckles_by_hortinus-dc49zsf_137
+  - first:
+      213: 3657779681063849668
+    second: ugandan_knuckles_by_hortinus-dc49zsf_138
+  - first:
+      213: 5892736634427834873
+    second: ugandan_knuckles_by_hortinus-dc49zsf_139
+  - first:
+      213: -1034482993216242647
+    second: ugandan_knuckles_by_hortinus-dc49zsf_140
+  - first:
+      213: 7707983758860254044
+    second: ugandan_knuckles_by_hortinus-dc49zsf_141
+  - first:
+      213: -1406769047423398573
+    second: ugandan_knuckles_by_hortinus-dc49zsf_142
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 377
+        width: 35
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1a980a42547bc42b042a73ec727e7b
+      internalID: 2451490891524090118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 378
+        width: 32
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d37745f02f7a04aba788bfc9b19bb9
+      internalID: 7818704298452558242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_26
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 378
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72238e6104e630a40a01d47d2f9f919c
+      internalID: -2326308228384276450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_27
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 378
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494966be68b3f10408f0090cccc71270
+      internalID: -108519993543283546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_28
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 378
+        width: 34
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b5cb3e0b66d5a4e8adafc9cc9070d6
+      internalID: 8634582966898046745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_29
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 379
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a5dc2f7924ba548b0161ce11ac759f
+      internalID: 887167310630147209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_30
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 377
+        width: 29
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43294f7770b52844d92f4a9f630bd4eb
+      internalID: -7917427026536300765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_31
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 379
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3fb3c4a1e62bd49a8f77e83868f06b
+      internalID: -5351039887606855922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 378
+        width: 32
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233f8e94ba18bf94ca71d3624c03f0b6
+      internalID: -5786171270361998989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_33
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 379
+        width: 27
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08bcbf7aa4ceb443a8f467a6fac30c7
+      internalID: -8248119011452041584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_34
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 379
+        width: 37
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aafbbb52c9592d48a33e1f566347055
+      internalID: 5811840709888482758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 380
+        width: 38
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623a4299cc1342845b45b71bc39a029a
+      internalID: -9046543966085888900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 341
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285f1e2138d3f7b4593b764b720ec75d
+      internalID: -5305699095185623836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_37
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 341
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7851a9e14412ded478928895e42ba7f5
+      internalID: 5533624128325707871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_38
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 341
+        width: 36
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaed550c9a5be72449610ad0efb92a0f
+      internalID: -6181409681470801628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_39
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 341
+        width: 33
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60638808b64358f489e2b3ba58209fef
+      internalID: 7265127725985486848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_40
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 341
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16c4c545e8fabc4fb2b8dcf99c2ea23
+      internalID: 8476006330243986592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_41
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 341
+        width: 34
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47882830bd1d7c042b59bf1db6c0c23f
+      internalID: -4609897902182851800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_42
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 340
+        width: 36
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fc5fd333830844fb65e4f2a8234d65
+      internalID: 6837693860765116967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_43
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 339
+        width: 35
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693384ce65175ee4bb5220ca8889f780
+      internalID: 1706078526538085325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_44
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 339
+        width: 30
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5938f338dd793840b7259d68c8ce0e3
+      internalID: -4007753063677794285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_45
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 339
+        width: 26
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84640f0a4baa99a41b44b6acc7567a47
+      internalID: 2893101550329816220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 297
+        width: 36
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bab2357302036f409ab75122ca88e25
+      internalID: 7632487486965666810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_49
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 297
+        width: 37
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3825e6b3be13d7b48ad7ac323a9394c8
+      internalID: -8568038243487546778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_50
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 297
+        width: 37
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde940ad15d1930458ee5df7914da109
+      internalID: 6942411847528006476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_51
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 297
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872fb95d90ad3ff4589ab12241bf3fbb
+      internalID: 2763990146888636042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_52
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 297
+        width: 39
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2681d25f5fa1eb44b0836b60e4802c2
+      internalID: -313382397216905033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_53
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 298
+        width: 41
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121676d856eb7ad408cd108e2a857d35
+      internalID: -5492015191608786959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_54
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 296
+        width: 41
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4855f94b7f5c54c9b43e44db262b96
+      internalID: 5270014307998094309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_55
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 297
+        width: 34
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30606daa00013db49a17d37c741a895c
+      internalID: -9158825958544240283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_56
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 297
+        width: 37
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8483378d69cacdb4c9296f8c0184664b
+      internalID: -2229418720050782704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_57
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 298
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838c721c305e70f4c827849d9d436c28
+      internalID: -1661685281471279964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_60
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 271
+        width: 46
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46d0070fd77c734eb631955f9c648b3
+      internalID: -9129792380142461496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_61
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 271
+        width: 46
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd95d3ca32c776458e8a24ce543ef47
+      internalID: -6839246043107545444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_62
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 265
+        width: 40
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efd017d62ee61746861b161ca9927ef
+      internalID: 8404405544113337742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_63
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 255
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3e2adc2c85f284e9a31abce6d4bd2e
+      internalID: -5905933543245112251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_64
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 255
+        width: 37
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1934848213cf1418393ba51cfd2b53
+      internalID: 7676169156345043357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_65
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 256
+        width: 35
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28aeb4ea3c5f9264b9d67d0de2fdc3f2
+      internalID: 6641010480066531948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_66
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 256
+        width: 34
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25da0ae6179f8d74dbf09a26a73a9661
+      internalID: -6231234695444756331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_67
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 255
+        width: 35
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a0d864c74847140a0715294501e334
+      internalID: 7766038829032482787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_68
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 255
+        width: 37
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950a860eb81040444b4b9fa1e197c5a9
+      internalID: 3527899462955764728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_70
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 255
+        width: 48
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9becbe8ebc0ee2d4d9957c853be0e883
+      internalID: -224910580929991702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_71
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 255
+        width: 56
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bce263a3d78b54aa58bc4a842ece88
+      internalID: 4845726346403379080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_96
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 170
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3960b6c84991b24418d18d3d5e47bab6
+      internalID: 7111751667688848001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_97
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 170
+        width: 38
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e4b0793665f674fa9b23f1e71e5e4f
+      internalID: -4684664845017405453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_98
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 170
+        width: 36
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5480706707c6f79488fa9dcc5719f829
+      internalID: 6587836144737171563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_99
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 170
+        width: 35
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a583625e0b5202a418932c757740a853
+      internalID: 2111687034099823652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_100
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 170
+        width: 36
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1f44d1fdeb1f94e95a62921913874b
+      internalID: -6631449821933947528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_101
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 170
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da1ccdfb67a9fc45ae606c92524d754
+      internalID: 4576725152113750397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_102
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 170
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f119ebd787adbb348af0db33ad7ff717
+      internalID: 3175635943144330927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_103
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 170
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9364a085311574aa1073bc71028dcd
+      internalID: -3952699457838421087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_104
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 170
+        width: 37
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fafbe7722d78c4aafbce880274eebb
+      internalID: -575678321971935886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_105
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 170
+        width: 35
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091f9aea5affe604fbda4c57ba1c007a
+      internalID: -8501406764099359847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_106
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 170
+        width: 35
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c63a943746bd3489fc752031d135c4
+      internalID: -5984924531236352497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_107
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 170
+        width: 35
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c411542c6297d5b47975fd950b21f9fc
+      internalID: -33363750574836767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_108
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 126
+        width: 36
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb575478fcae6d04189fa0de2996be59
+      internalID: 5308731031568287461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_109
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 126
+        width: 32
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae03e3e1a0d70e448a6bf77bfc99aeb
+      internalID: -338353778256641225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_110
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 125
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947065da2ad830745acb26dfe8ad4002
+      internalID: -2070759185157925707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_111
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 125
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed6f351db1b2644b8c385f9280fd3df
+      internalID: 5847145846115493681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_112
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 126
+        width: 31
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452f044a16804604fa3f307a7f5c5892
+      internalID: 7346445633850826662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_113
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 125
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e24d2be3c0c4045acb27a4f75b82b0
+      internalID: -3297891983442866878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_114
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 126
+        width: 27
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6622bb7e032a7458a3f705b1e785b4
+      internalID: 6694653551655896435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_115
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 127
+        width: 30
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c596d59d0ed54f4bb547a372b7968f9
+      internalID: 5912478818036660842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_116
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 125
+        width: 34
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba02eef7eaafc0440983e738602c13b5
+      internalID: 8384385306166680221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_117
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 127
+        width: 30
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b407baea443d7409f57fa894073463
+      internalID: 8764847153220720074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_118
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 171
+        width: 38
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26df48d26896f1a4995b2bb546dc8e8a
+      internalID: -6877055794465268471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_119
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 170
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed45d00deeb98a43a7035fc98b20a18
+      internalID: 3860460459911710554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_120
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 98
+        width: 47
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e845912511803da45b219c0e46c49eba
+      internalID: -6939783563009623203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_121
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 99
+        width: 46
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630a21e7f2faa834fae434b1e4026d30
+      internalID: -6342195062795524554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_122
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 100
+        width: 46
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de8cb2c0fb0db14ca1646857b384a0a
+      internalID: -8946356218937119965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_123
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 99
+        width: 47
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3b78c0cc3569f49bf3f2b228e07ada
+      internalID: -2501867195075496911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_124
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 90
+        width: 42
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f0ea952d347b844b8ce385d3b1d00d
+      internalID: 6499925944344801333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_125
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 89
+        width: 33
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8fa7a16bbd98a45a448748e512ab75
+      internalID: 8135001857237288900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_126
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 88
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeac1126460936b42b9cc5dd67da6750
+      internalID: -5159230064062581175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_127
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 83
+        width: 41
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502f6b50febb3b842965c8c2eba8b58d
+      internalID: -1261969953053580306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_128
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 40
+        width: 24
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf6fae491e371c4fa7ded4819abd588
+      internalID: 1648243580040632724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_129
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 41
+        width: 24
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f69474dca1c484db19fa811a02f1bb
+      internalID: -3351465204492158485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_130
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 126
+        width: 26
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0c8e4ee644a7b418ee9a56974eb229
+      internalID: 3246575104036907409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_131
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 126
+        width: 30
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4789d95b16e4361439556194800f73d3
+      internalID: -8018854048169729374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_132
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 50
+        width: 41
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201519f4522d55e4db6de2d3d266eb7e
+      internalID: 3549723013457422222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_133
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 41
+        width: 33
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ee85d2d190cf94093767dd42aca24c
+      internalID: -5409989976455624834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_134
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 41
+        width: 36
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0912a535e0878f743b7f7b435c0fce56
+      internalID: -3852775007721172402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_135
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 41
+        width: 35
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a48a65bc2d2d9a40877086e7302d1d0
+      internalID: 6704061931605578584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_136
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 41
+        width: 36
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7c6a9e7112236499620df622db11b8
+      internalID: -2168590585145577009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_137
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 41
+        width: 38
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e038297f4adb1498f20a7fca15736d
+      internalID: -6265940122425151336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_138
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 40
+        width: 37
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09c8d0f262b8f645bf2fb470710c9f8
+      internalID: 3657779681063849668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_139
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 41
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fec0883f635f64bb0f1d27d6b308c9
+      internalID: 5892736634427834873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_140
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 45
+        width: 23
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199f86d17560a934291d9dc48fe1d8f7
+      internalID: -1034482993216242647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_141
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 39
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fe56d2e13098d488fef41e20f682d3
+      internalID: 7707983758860254044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ugandan_knuckles_by_hortinus-dc49zsf_142
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 39
+        width: 22
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6245f2108193df4389b1eeefe4bf229
+      internalID: -1406769047423398573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4744219e648ff5c4097fcc10ebc3cac5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

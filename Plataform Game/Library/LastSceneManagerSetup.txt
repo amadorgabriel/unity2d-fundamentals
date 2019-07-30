@@ -1,0 +1,5 @@
+sceneSetups:
+- path: C:/Users/Family/Documents/Gabriel Rodrigues Amador/Unity/Fundamentos Unity/Assets/Scenes/Principal.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
