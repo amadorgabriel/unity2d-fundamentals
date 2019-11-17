@@ -1,0 +1,12 @@
+ DONE:
+    Pulo com intensidade
+    Correr 
+    Atack and Walk
+    Pulo com Particula
+    Ataque com Pedra(add angulo y)
+
+TO DO:
+    //Remover impulso ao atirar pedra
+    Cenário
+
+
