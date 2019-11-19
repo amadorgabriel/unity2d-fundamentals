@@ -184,16 +184,16 @@ TextureImporter:
     second: Tileset_59
   - first:
       213: 6891894450384577634
-    second: Tileset_60
+    second: Monte_1
   - first:
       213: -7411026656216122260
-    second: Tileset_61
+    second: Monte_2
   - first:
       213: -7640177128574331439
-    second: Tileset_62
+    second: Monte_
   - first:
       213: 657641356394417032
-    second: Tileset_63
+    second: Monte_4
   - first:
       213: 2222912502455728431
     second: Tileset_64
@@ -208,10 +208,10 @@ TextureImporter:
     second: Tileset_67
   - first:
       213: 9223164898309109973
-    second: Tileset_68
+    second: Monte_5
   - first:
       213: 9073897159159690263
-    second: Tileset_69
+    second: Monte_6
   - first:
       213: -586981502950777654
     second: Tileset_70
@@ -226,10 +226,10 @@ TextureImporter:
     second: Tileset_73
   - first:
       213: 7408432812526453787
-    second: Tileset_74
+    second: Monte_7
   - first:
       213: -1410985319218432324
-    second: Tileset_75
+    second: Monte_8
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -1583,7 +1583,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_60
+      name: Monte_1
       rect:
         serializedVersion: 2
         x: 48
@@ -1604,7 +1604,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_61
+      name: Monte_2
       rect:
         serializedVersion: 2
         x: 64
@@ -1625,7 +1625,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_62
+      name: Monte_
       rect:
         serializedVersion: 2
         x: 48
@@ -1646,7 +1646,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_63
+      name: Monte_4
       rect:
         serializedVersion: 2
         x: 64
@@ -1751,7 +1751,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_68
+      name: Monte_5
       rect:
         serializedVersion: 2
         x: 48
@@ -1772,7 +1772,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_69
+      name: Monte_6
       rect:
         serializedVersion: 2
         x: 64
@@ -1877,7 +1877,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_74
+      name: Monte_7
       rect:
         serializedVersion: 2
         x: 48
@@ -1898,7 +1898,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_75
+      name: Monte_8
       rect:
         serializedVersion: 2
         x: 64

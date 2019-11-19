@@ -23,6 +23,11 @@ public class playerController : MonoBehaviour
     public GameObject fumacaPrefab;
     public Transform areaSpawFumaca;
 
+    public GameObject npcPrefab;
+    public Transform areaSpawNpc;
+    public Transform areaSpawNpc2;
+    public Transform areaSpawNpc3;
+
 
 
     public float _velocidade;
@@ -38,6 +43,8 @@ public class playerController : MonoBehaviour
     private bool _tocandoNoChao;
     private bool _atacando = false;
 
+    public bool _morteNaoMostrada = true;
+
 
     void Start()
     {
@@ -47,13 +54,20 @@ public class playerController : MonoBehaviour
         // Pegando dados de outro Script/Transform
         _GameController = FindObjectOfType(typeof(GameController)) as GameController;
         _GameController.playerTransform = this.transform;
+
     }
 
     void Update()
     {
+
+        if ( this.transform.position.x >= -3.5f && _morteNaoMostrada )
+        {
+            GerarNpc();
+            _morteNaoMostrada = false;
+        }
+
         //Vel Camera
         _GameController._playerVel = this._velocidade;
-
 
         float _velocidadeY = _rigidBody.velocity.y;
         float horizontal = Input.GetAxisRaw("Horizontal");
@@ -89,6 +103,7 @@ public class playerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && _tocandoNoChao)
         {
             _rigidBody.AddForce(new Vector2(0, _forcaPulo));
+            _GameController.tocarEfeitos(_GameController.AudioPulo, 0.5f); 
             GeraFumacaPulo();
         }
 
@@ -102,6 +117,7 @@ public class playerController : MonoBehaviour
         if (Input.GetButtonDown("Fire1") && _atacando == false)
         {
             playerAnimator.SetTrigger("atack");
+            _GameController.tocarEfeitos(_GameController.AudioAtaque, 0.5f);
             _atacando = true;
         }
 
@@ -181,6 +197,34 @@ public class playerController : MonoBehaviour
         Destroy(FumTemp, 0.2f);
     }
 
+    void GerarNpc(){
+        //objPrefab, transform Position, location
+        GameObject Npc = Instantiate(npcPrefab, areaSpawNpc.position, transform.localRotation );
+        GameObject Npc2 = Instantiate(npcPrefab, areaSpawNpc2.position, transform.localRotation );
 
+        GameObject Npc3 = Instantiate(npcPrefab, areaSpawNpc3.position, transform.localRotation );
+        float escalaX = Npc3.transform.localScale.x * -1;
+        Npc3.transform.localScale = new Vector3(escalaX, Npc3.transform.localScale.y, Npc3.transform.localScale.z);
+
+        Destroy(Npc, 0.8f);
+        Destroy(Npc2, 0.8f); 
+        Destroy(Npc3, 0.8f);
+    }
+
+    void OnTriggerEnter2D(Collider2D obj)
+    {
+        if( obj.tag == "coletavel" ){
+            _GameController.tocarEfeitos(_GameController.AudioMoeda, 0.5f);
+            Destroy(obj.gameObject);
+        }
+    }
+
+    void PassosAudio(){
+        _GameController.tocarEfeitos(_GameController.AudiosPassos[Random.Range(0, _GameController.AudiosPassos.Length)], 1f );
+    }
+
+    void AtaquesAudio() {
+        _GameController.tocarEfeitos(_GameController.AudioAtaque, 0.5f );
+    }
 
 }

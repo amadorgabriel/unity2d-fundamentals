@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,6 +10,17 @@ public class GameController : MonoBehaviour
 
     private float velCamera;
     public float _playerVel;
+
+    [Header("Audio")]
+    public AudioSource efeitosSource;
+    public AudioSource musicaSource ;
+
+    public AudioClip AudioPulo;     
+    public AudioClip AudioAtaque;     
+    public AudioClip AudioMoeda; 
+
+    public AudioClip[] AudiosPassos;    
+
 
     void Start()
     {
@@ -63,9 +74,12 @@ public class GameController : MonoBehaviour
         Vector3 posCam = new Vector3(posCamX, posCamY, camera.transform.position.z);
         //Lerp( PosiçãoAtual, PosiçãoFinal, Velocidade)
 
-
         camera.transform.position = Vector3.Lerp(camera.transform.position, posCam, velCamera * Time.deltaTime);
-
-
     }
+
+    public void tocarEfeitos( AudioClip audio, float volume ){
+        efeitosSource.PlayOneShot(audio, volume);
+    }
+
+
 }

@@ -56,8 +56,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\ParallaxController.cs" />
+     <Compile Include="Assets\Scripts\placaController.cs" />
      <Compile Include="Assets\Scripts\playerController.cs" />
      <Compile Include="Assets\Scripts\rockController.cs" />
+     <Compile Include="Assets\Scripts\SlimeIAController.cs" />
      <None Include="Assets\Scripts\ToDo.txt" />
      <None Include="Assets\PackTinyMonster\license.txt" />
  <Reference Include="Unity.Timeline.Editor">
