@@ -17,7 +17,9 @@ public class GameController : MonoBehaviour
 
     public AudioClip AudioPulo;     
     public AudioClip AudioAtaque;     
-    public AudioClip AudioMoeda; 
+    public AudioClip AudioMorteSlime;     
+    public AudioClip AudioMoeda;
+    public AudioClip AudioDanoPlayer;
 
     public AudioClip[] AudiosPassos;    
 

@@ -60,7 +60,7 @@
      <Compile Include="Assets\Scripts\placaController.cs" />
      <Compile Include="Assets\Scripts\playerController.cs" />
      <Compile Include="Assets\Scripts\rockController.cs" />
-     <Compile Include="Assets\Scripts\SlimeIAController.cs" />
+     <Compile Include="Assets\Scripts\slimeIAController.cs" />
      <None Include="Assets\Scripts\ToDo.txt" />
      <None Include="Assets\PackTinyMonster\license.txt" />
  <Reference Include="Unity.Timeline.Editor">

@@ -7,6 +7,7 @@ TagManager:
   - HitBox
   - player
   - coletavel
+  - dano
   layers:
   - Default
   - TransparentFX
@@ -20,8 +21,8 @@ TagManager:
   - Invencivel
   - Inimigo
   - Pedra
-  - 
-  - 
+  - Coletavel
+  - HitBoxInimigo
   - 
   - 
   - 

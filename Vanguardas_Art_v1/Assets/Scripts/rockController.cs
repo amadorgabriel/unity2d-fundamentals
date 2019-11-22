@@ -23,6 +23,10 @@ public class rockController : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter2D(Collider2D other) {
+        Destroy(this.gameObject);    
+    }
+
     // void OnTriggerEnter2D(Collider2D other) {
     //     _GameController.tocarEfeitos( _GameController.AudioAtaque, 0.5f );
     // }

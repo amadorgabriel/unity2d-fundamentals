@@ -7,49 +7,60 @@ public class playerController : MonoBehaviour
 
    
     // COMPONENTES
-    private GameController _GameController; 
-    private Rigidbody2D _rigidBody;
-    private Animator playerAnimator;
-    public Transform _groundCheck;
+    private GameController      _GameController; 
+    private Rigidbody2D         _rigidBody;
+    private Animator            playerAnimator;
+    public Transform            _groundCheck;
+    private SpriteRenderer      playerSprite;
 
-    public GameObject hitBoxPrefab;
-    public Transform areaDano;
+    public GameObject           hitBoxPrefab;
+    public Transform            areaDano;
 
-    public GameObject pedraPrefab;
-    public Transform areaSpanwPedra;
-    public float _velocidadePedra;
-    public float _forcaPedraY;
+    public GameObject           pedraPrefab;
+    public Transform            areaSpanwPedra;
+    public float                _velocidadePedra;
+    public float                _forcaPedraY;
+    public int                  HP;
 
-    public GameObject fumacaPrefab;
-    public Transform areaSpawFumaca;
+    public GameObject           fumacaPrefab;
+    public Transform            areaSpawFumaca;
 
-    public GameObject npcPrefab;
-    public Transform areaSpawNpc;
-    public Transform areaSpawNpc2;
-    public Transform areaSpawNpc3;
+    public GameObject           npcPrefab;
+    public Transform            areaSpawNpc;
+    public Transform            areaSpawNpc2;
+    public Transform            areaSpawNpc3;
 
 
 
-    public float _velocidade;
-    float _andandoVel = 3.0f;
-    float _correndoVel = 5.0f;
 
-    public float _forcaPulo;
+
+    public float                _velocidade;
+    float                       _andandoVel = 3.0f;
+    float                       _correndoVel = 5.0f;
+    public float                _forcaPulo;
+
     [Range(0, 0.25f)]
-    private float _valorCortaPolo = 0.25f;
+    private float               _valorCortaPolo = 0.25f;
 
-    public bool _viradoParaEsquerda;
-    private bool _realizadoUmAtaque = false;
-    private bool _tocandoNoChao;
-    private bool _atacando = false;
+    public bool                 _viradoParaEsquerda;
+    private bool                _realizadoUmAtaque = false;
+    private bool                _tocandoNoChao;
+    private bool                _atacando = false;
 
-    public bool _morteNaoMostrada = true;
+    public bool                 _morteNaoMostrada = true;
+
+    public Color                danoColor;
+    public Color                invencivelColor;  //transparencia
+
+
+
 
 
     void Start()
     {
         _rigidBody = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
+        playerSprite = GetComponent<SpriteRenderer>();
 
         // Pegando dados de outro Script/Transform
         _GameController = FindObjectOfType(typeof(GameController)) as GameController;
@@ -216,7 +227,35 @@ public class playerController : MonoBehaviour
         if( obj.tag == "coletavel" ){
             _GameController.tocarEfeitos(_GameController.AudioMoeda, 0.5f);
             Destroy(obj.gameObject);
+        }else if(obj.tag == "dano" ){
+            StartCoroutine("danoController");
+            
         }
+    }
+
+    IEnumerator danoController(){
+
+        // HP -= 1;
+        // if (HP <= 0)
+        // {
+        //     //Debug.LogError("Game Over");
+        // }
+
+        _GameController.tocarEfeitos(_GameController.AudioDanoPlayer, 0.5f);
+        this.gameObject.layer = LayerMask.NameToLayer("Invencivel");
+        playerSprite.color = danoColor;
+        yield return new WaitForSeconds(0.3f);
+        playerSprite.color = invencivelColor;
+
+        for(int i = 0; i < 5; i++){
+            playerSprite.enabled = false;
+            yield return new WaitForSeconds(0.2f);
+            playerSprite.enabled = true;
+            yield return new WaitForSeconds(0.2f);
+        }       
+
+        playerSprite.color = Color.white;
+        this.gameObject.layer = LayerMask.NameToLayer("Player");
     }
 
     void PassosAudio(){
