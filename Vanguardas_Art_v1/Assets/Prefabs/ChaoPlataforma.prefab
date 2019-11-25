@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 2142390035528510056}
   - component: {fileID: 2142390035528510059}
   - component: {fileID: 6537224081833313292}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: ChaoSuperior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4587110916658762434}
   m_Layer: 0
-  m_Name: Chao3
+  m_Name: ChaoPlataforma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -8,7 +8,7 @@ public class rockController : MonoBehaviour
     //atackRock vs pointWeapon
     private GameController _GameController; 
     private float beginPos;
-    private float range = 20f;
+    private float range = 80f;
 
     void Start()
     {
@@ -20,11 +20,15 @@ public class rockController : MonoBehaviour
     {
         if (transform.position.x - beginPos > range || beginPos - transform.position.x > range){
             Destroy(gameObject);
+        }else{
+            Destroy(gameObject, 25f);
         }
     }
 
     void OnTriggerEnter2D(Collider2D other) {
-        Destroy(this.gameObject);    
+        if(other.gameObject.tag != "antiSuicida"){
+            Destroy(this.gameObject);    
+        }
     }
 
     // void OnTriggerEnter2D(Collider2D other) {

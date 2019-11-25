@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 5117125776669012656}
   - component: {fileID: 5117125776669012657}
   - component: {fileID: 5117125776669012658}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: ChaoSuperior
   m_TagString: Untagged
   m_Icon: {fileID: 0}

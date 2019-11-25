@@ -2,23 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class slimeIAController  : MonoBehaviour
+public class slimeIAController : MonoBehaviour
 {
-    private GameController  _GameController;
-    private Rigidbody2D     _slimeRb;
-    private Animator        _sllimeAnimator;
+    private GameController _GameController;
+    private playerController _playerController;
+    private Rigidbody2D _slimeRb;
+    public Animator _sllimeAnimator;
+    public Transform _prefabMoeda;
 
-    public float            velocidade;
-    public float            tempoParaAndar;
-    private int             horizontal;
-    public bool             _viradoParaEsquerda;
+    public float velocidade;
+    public float tempoParaAndar;
+    public int horizontal;
+    public bool _viradoParaEsquerda;
 
+    public GameObject hitBox;
 
-    public GameObject        hitBox;
 
     void Start()
     {
         _GameController = FindObjectOfType(typeof(GameController)) as GameController;
+        _playerController = FindObjectOfType(typeof(playerController)) as playerController;
 
         _slimeRb = GetComponent<Rigidbody2D>();
         _sllimeAnimator = GetComponent<Animator>();
@@ -27,8 +30,9 @@ public class slimeIAController  : MonoBehaviour
 
     }
 
-   void Update()
+    void Update()
     {
+
         _slimeRb.velocity = new Vector2(horizontal * velocidade, _slimeRb.velocity.y);
 
         //Flip Slime
@@ -41,38 +45,66 @@ public class slimeIAController  : MonoBehaviour
             Virar();
         }
 
-        if(horizontal != 0 ){
+        if (horizontal != 0)
+        {
             _sllimeAnimator.SetBool("IsWalking", true);
-        }else{
+        }
+        else
+        {
             _sllimeAnimator.SetBool("IsWalking", false);
         }
+
+
+    }
+
+    public void OnTriggerEnter2D(Collider2D colider)
+    {
+        if (colider.gameObject.tag == "HitBox")
+        {
+      
+            _sllimeAnimator.SetTrigger("Dead");
+            Destroy(hitBox);
+
+
+           
+
+        }
+        else if (colider.gameObject.tag == "antiSuicida")
+        {
+            horizontal = horizontal * -1;
+        }
+    }
+
+    public void MorreSlimeMaldito(GameObject slime, string name)
+    {
+
+        _sllimeAnimator.SetTrigger("Dead");
 
         
     }
 
-    void OnTriggerEnter2D(Collider2D colider) {
-        if(colider.gameObject.tag == "HitBox"){
-            horizontal = 0;
-            StopCoroutine("slimeWalk");
-            Destroy(hitBox);
-            _GameController.tocarEfeitos(_GameController.AudioMorteSlime, 0.3f);
-            _sllimeAnimator.SetTrigger("Dead");
-        }
+    void Morte()
+    {
+        //Destroy(this.gameObject);
+        //Transform moedaCriada = Instantiate(_prefabMoeda, transform.position, transform.localRotation);
+        //moedaCriada.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 150));
     }
 
-    void Morte(){
-        Destroy(this.gameObject);
-    }
-
-    IEnumerator slimeWalk(){
+    IEnumerator slimeWalk()
+    {
         //0 - 99
-        int rand = Random.Range(0,100);
+        int rand = Random.Range(0, 100);
 
-        if(rand < 33){
+        if (rand < 33)
+        {
             horizontal = -1;
-        }else if(rand < 66){
+        }
+        else if (rand < 66)
+        {
             horizontal = 0;
-        }else{
+        }
+        else
+        {
             horizontal = 1;
         }
 
