@@ -32,7 +32,7 @@ public class puloHeadSlime : MonoBehaviour
                 
                 //_slimeIAController._sllimeAnimator.SetTrigger("Dead");
                 _slimeIAController.GetComponent<Animator>().SetTrigger("Dead");
-              //  _slimeIAController.MorreSlimeMaldito(_paiObj.gameObject, _paiObj.gameObject.name);
+              //  _slimeIAController.MorreSlime(_paiObj.gameObject, _paiObj.gameObject.name);
           
             }
              

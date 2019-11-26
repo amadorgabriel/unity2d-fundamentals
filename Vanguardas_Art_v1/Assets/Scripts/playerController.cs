@@ -215,9 +215,6 @@ public class playerController : MonoBehaviour
             contagemAtaque = 0f;
         }
 
-
-
-
         playerAnimator.SetBool("atacando", _atacando);
 
     }

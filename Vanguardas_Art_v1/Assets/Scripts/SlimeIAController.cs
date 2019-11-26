@@ -75,7 +75,7 @@ public class slimeIAController : MonoBehaviour
         }
     }
 
-    public void MorreSlimeMaldito(GameObject slime, string name)
+    public void MorreSlime(GameObject slime, string name)
     {
 
         _sllimeAnimator.SetTrigger("Dead");
