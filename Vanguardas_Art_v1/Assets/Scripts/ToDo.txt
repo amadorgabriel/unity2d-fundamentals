@@ -4,9 +4,13 @@
     Atack and Walk
     Pulo com Particula
     Ataque com Pedra(add angulo y)
+    Cenário
 
 TO DO:
     //Remover impulso ao atirar pedra
-    Cenário
+
+	Ao pressionar pedra instanciar Barra
+	Ao Soltar destruir barra
+	Enquanto segurar C elevar progresso com max de 2seg;
 
 

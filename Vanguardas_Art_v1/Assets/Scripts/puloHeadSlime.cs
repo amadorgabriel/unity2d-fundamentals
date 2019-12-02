@@ -12,11 +12,7 @@ public class puloHeadSlime : MonoBehaviour
     {
         _playerController = FindObjectOfType(typeof(playerController)) as playerController;
         _slimeIAController = FindObjectOfType(typeof(slimeIAController)) as slimeIAController;
-        
-
     }
-
-    
 
     void OnTriggerEnter2D(Collider2D colider)
     {
@@ -26,18 +22,16 @@ public class puloHeadSlime : MonoBehaviour
 
             if (velocidade < 0)
             {
-                _playerController._rigidBody.AddForce(new Vector2(0, 800));
-                //_slimeIAController.OnTriggerEnter2D(colider);
-                //Debug.Log("Mata ESSE 1º:" + _paiObj.gameObject.name);
-                
-                //_slimeIAController._sllimeAnimator.SetTrigger("Dead");
-                _slimeIAController.GetComponent<Animator>().SetTrigger("Dead");
-              //  _slimeIAController.MorreSlime(_paiObj.gameObject, _paiObj.gameObject.name);
-          
-            }
-             
-            
+                _playerController._rigidBody.AddForce(new Vector2(0, 600));
 
+                _paiObj.GetComponent<slimeIAController>().HitInimigo("-10");
+                _paiObj.GetComponent<slimeIAController>().vidaSlime--;
+                if (_paiObj.GetComponent<slimeIAController>().vidaSlime <= 0)
+                {
+                    _paiObj.GetComponent<Animator>().SetTrigger("Dead");
+                }
+
+            }
         }
     }
 }

@@ -109,6 +109,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -204,13 +205,13 @@ MonoBehaviour:
   _sllimeAnimator: {fileID: 0}
   _prefabMoeda: {fileID: 7537777961147960338, guid: 6eabcadf028d834489fb4c017cb223c5,
     type: 3}
+  hitBox: {fileID: 3840477403458198830}
+  damageTetxPrefab: {fileID: 1298776553702964041, guid: a367857d563134a48b64f742c9260b14,
+    type: 3}
   velocidade: 0.5
   tempoParaAndar: 5
   horizontal: 0
   _viradoParaEsquerda: 1
-  hitBox: {fileID: 3840477403458198830}
-  podeMatar: 0
-  slimeMaledito: {fileID: 0}
 --- !u!1 &7292567145415494480
 GameObject:
   m_ObjectHideFlags: 0

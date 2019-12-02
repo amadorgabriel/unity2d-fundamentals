@@ -4,18 +4,24 @@ using UnityEngine;
 
 public class slimeIAController : MonoBehaviour
 {
+    //Controllers
     private GameController _GameController;
     private playerController _playerController;
+
+    //Componentes
     private Rigidbody2D _slimeRb;
     public Animator _sllimeAnimator;
     public Transform _prefabMoeda;
+    public GameObject hitBox;
+    public GameObject damageTetxPrefab;
 
+    //Variaveis Genéricas
     public float velocidade;
     public float tempoParaAndar;
     public int horizontal;
     public bool _viradoParaEsquerda;
 
-    public GameObject hitBox;
+    public int vidaSlime = 1;
 
 
     void Start()
@@ -25,6 +31,12 @@ public class slimeIAController : MonoBehaviour
 
         _slimeRb = GetComponent<Rigidbody2D>();
         _sllimeAnimator = GetComponent<Animator>();
+
+        //Definindo quant VidaSlime
+        if (gameObject.name == "BigSlime")
+        {
+            vidaSlime = 3;
+        }
 
         StartCoroutine("slimeWalk");
 
@@ -54,19 +66,23 @@ public class slimeIAController : MonoBehaviour
             _sllimeAnimator.SetBool("IsWalking", false);
         }
 
-
     }
 
     public void OnTriggerEnter2D(Collider2D colider)
     {
         if (colider.gameObject.tag == "HitBox")
         {
-      
-            _sllimeAnimator.SetTrigger("Dead");
-            Destroy(hitBox);
 
+            HitInimigo("-10");
+            vidaSlime--;
 
-           
+            //Debug.Log(gameObject.name);
+
+            if (vidaSlime <= 0)
+            {
+                _sllimeAnimator.SetTrigger("Dead");
+                Destroy(hitBox);
+            }
 
         }
         else if (colider.gameObject.tag == "antiSuicida")
@@ -75,19 +91,57 @@ public class slimeIAController : MonoBehaviour
         }
     }
 
-    public void MorreSlime(GameObject slime, string name)
-    {
-
-        _sllimeAnimator.SetTrigger("Dead");
-
-        
-    }
-
     void Morte()
     {
-        //Destroy(this.gameObject);
-        //Transform moedaCriada = Instantiate(_prefabMoeda, transform.position, transform.localRotation);
-        //moedaCriada.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 150));
+        _GameController.tocarEfeitos(_GameController.AudioMorteSlime, 0.3f);
+
+        horizontal = 0;
+        Destroy(this.gameObject);
+        Transform moedaCriada = Instantiate(_prefabMoeda, transform.position, transform.localRotation);
+
+        float random = Random.Range(0, 10);
+        int direcaoHorizontal;
+        if (random < 3.3f)
+        {
+            direcaoHorizontal = 15;
+        }
+        else if (random < 6.6f)
+        {
+            direcaoHorizontal = 0;
+        }
+        else
+        {
+            direcaoHorizontal = -15;
+        }
+
+        _playerController.countSlimeMortos++;
+        if (_playerController.countSlimeMortos == 15)
+        {
+            Debug.Log("Desbloqueado Soco Duplo");
+        }
+        else if (_playerController.countSlimeMortos == 15)
+        {
+            Debug.Log("Desbloqueado Fumaça Pulo");
+        }
+        else if (_playerController.countSlimeMortos == 25)
+        {
+            Debug.Log("Desbloqueado Tiro de Pedras");
+        }
+        else if (_playerController.countSlimeMortos == 35)
+        {
+            Debug.Log("Desbloqueado Tito Pedra Intensa");
+        }
+
+        //só 30% de chances
+        float randomQuntMoeda = Random.Range(0, 10);
+        if (randomQuntMoeda < 3.3f)
+        {
+            Transform moedaCriada2 = Instantiate(_prefabMoeda, transform.position, transform.localRotation);
+            moedaCriada2.GetComponent<Rigidbody2D>().AddForce(new Vector2(direcaoHorizontal * -1, 60));
+
+        }
+
+        moedaCriada.GetComponent<Rigidbody2D>().AddForce(new Vector2(direcaoHorizontal, 80));
     }
 
     IEnumerator slimeWalk()
@@ -118,6 +172,15 @@ public class slimeIAController : MonoBehaviour
 
         float escalaX = transform.localScale.x * -1;
         transform.localScale = new Vector3(escalaX, transform.localScale.y, transform.localScale.z);
+    }
+
+    public void HitInimigo(string valor)
+    {
+        if (damageTetxPrefab != null)
+        {
+            var _objDano = Instantiate(damageTetxPrefab, transform.position, Quaternion.identity);
+            _objDano.SendMessage("SetText", valor);
+        }
     }
 
 }

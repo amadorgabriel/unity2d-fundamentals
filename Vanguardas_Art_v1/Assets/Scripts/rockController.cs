@@ -26,7 +26,8 @@ public class rockController : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other) {
-        if(other.gameObject.tag != "antiSuicida"){
+        if(other.gameObject.tag != "antiSuicida" || other.gameObject.tag != "groundCheck")
+        {
             Destroy(this.gameObject);    
         }
     }

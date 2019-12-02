@@ -11,6 +11,8 @@ TagManager:
   - antiSuicida
   - plataformaMovel
   - groundCheck
+  - placa
+  - abismo
   layers:
   - Default
   - TransparentFX

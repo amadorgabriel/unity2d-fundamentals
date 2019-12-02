@@ -1,17 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour
 {
-    //Game Controller
+    //Controllers
     private GameController _GameController;
+    private slimeIAController _slimeIAController;
+    private placaController _placaController;
 
     // Player
     public Rigidbody2D _rigidBody;
     private Animator playerAnimator;
     public Transform _groundCheck;
     private SpriteRenderer playerSprite;
+
+    //Vida
+    public int quantVida;
 
     //Ataques
     public GameObject hitBoxPrefab;
@@ -25,15 +31,13 @@ public class playerController : MonoBehaviour
     public float duracaoAtaque;
     public float contagemAtaque;
 
+    //BarraStatus
+    public GameObject BarraPowerPrefab;
+    public GameObject BarraCriada;
+
     //Genericas
     public GameObject fumacaPrefab;
     public Transform areaSpawFumaca;
-
-    //public int HP;
-    // public GameObject npcPrefab;
-    // public Transform areaSpawNpc;
-    // public Transform areaSpawNpc2;
-    // public Transform areaSpawNpc3;
 
     public float _velocidade;
     float _andandoVel = 3.0f;
@@ -52,7 +56,12 @@ public class playerController : MonoBehaviour
     public Color danoColor;
     public Color invencivelColor;  //transparencia
 
-    //public bool _morteNaoMostrada = true;
+    //Variaveis de desbloqueio
+    public int countSlimeMortos;
+    public bool dbSocoBlock = false;
+    public bool fumacaPulo = false;
+    public bool tiroPedra = false;
+    public bool tiroPedraIntensa = false;
 
 
     void Start()
@@ -64,6 +73,8 @@ public class playerController : MonoBehaviour
         // Pegando dados de outro Script/Transform
         _GameController = FindObjectOfType(typeof(GameController)) as GameController;
         _GameController.playerTransform = this.transform;
+
+        _placaController = FindObjectOfType(typeof(placaController)) as placaController;
 
     }
 
@@ -78,6 +89,29 @@ public class playerController : MonoBehaviour
         //Ataque Animação
         _Ataque();
 
+        //Desbloquear por Morte  (Requisitos / Conquistas)
+        //Se matar 15 slimes tm dbSoco
+        //Se comprar por 150coins obtéma fumaçaPulo
+        //Se comprar por 50 coins tens 5 pedras
+        //Se matardes 15 inimigos com pedra desboquea-rás tiro com pedra Intensa
+
+        if (countSlimeMortos == 15)
+        {
+            dbSocoBlock = true;
+        }
+        else if (countSlimeMortos == 15)
+        {
+            fumacaPulo = true;
+        }
+        else if (countSlimeMortos == 25)
+        {
+            tiroPedra = true;
+        }
+        else if (countSlimeMortos == 35)
+        {
+            tiroPedraIntensa = true;
+        }
+
     }
 
     void OnCollisionEnter2D(Collision2D other)
@@ -85,8 +119,12 @@ public class playerController : MonoBehaviour
         if (other.transform.tag == "plataformaMovel")
         {
             transform.parent = other.transform;
-        } else if (other.gameObject.tag == "coletavel")
+        }
+        else if (other.gameObject.tag == "coletavel")
         {
+            Debug.Log("Coletado Coin Com Fisca");
+            _GameController.getCoin();
+
             _GameController.tocarEfeitos(_GameController.AudioMoeda, 0.5f);
             Destroy(other.gameObject);
         }
@@ -136,9 +174,11 @@ public class playerController : MonoBehaviour
         //Pulo
         if (Input.GetButtonDown("Jump") && _tocandoNoChao)
         {
+
             _rigidBody.AddForce(new Vector2(0, _forcaPulo));
             _GameController.tocarEfeitos(_GameController.AudioPulo, 0.5f);
             GeraFumacaPulo();
+
         }
 
         //Intensidade Pulo
@@ -169,7 +209,7 @@ public class playerController : MonoBehaviour
         }
 
         //Soco Duplo
-        if (Input.GetButtonDown("Fire2") && _atacando == false && horizontal == 0)
+        if (Input.GetButtonDown("Fire2") && _atacando == false && horizontal == 0 && dbSocoBlock == true)
         {
             playerAnimator.SetTrigger("atackDb");
             _atacando = true;
@@ -182,6 +222,11 @@ public class playerController : MonoBehaviour
         }
 
         // Tiro Simples
+        if (Input.GetButtonDown("Fire3"))
+        {
+            BarraCriada = Instantiate(BarraPowerPrefab, areaSpanwPedra.position, transform.localRotation);
+        }
+
         if (Input.GetButton("Fire3")) //Enquanto estiver pressionando
         {
             contagemAtaque += Time.deltaTime;
@@ -189,34 +234,63 @@ public class playerController : MonoBehaviour
 
         if (Input.GetButtonUp("Fire3") && _atacando == false) //Quando clicar
         {
+            if (tiroPedra == true)
+            {
 
-            GameObject goWeapon = (GameObject)Instantiate(pedraPrefab, areaSpanwPedra.position, Quaternion.identity);
-            playerAnimator.SetTrigger("atackRock");
+                GameObject goWeapon = (GameObject)Instantiate(pedraPrefab, areaSpanwPedra.position, Quaternion.identity);
+                playerAnimator.SetTrigger("atackRock");
 
-            float velocidade;
-            if (contagemAtaque >= duracaoAtaque)
-            {
-                velocidade = _velocidadePedraPotente;
-            }
-            else
-            {
-                velocidade = _velocidadePedra;
-            }
+                float velocidade;
+                if (contagemAtaque >= duracaoAtaque)
+                {
+                    velocidade = _velocidadePedraPotente;
+                }
+                else
+                {
+                    velocidade = _velocidadePedra;
+                }
 
-            if (_viradoParaEsquerda)
-            {
-                goWeapon.GetComponent<Rigidbody2D>().AddForce(new Vector2(velocidade * -1, _forcaPedraY));
+                if (_viradoParaEsquerda)
+                {
+                    goWeapon.GetComponent<Rigidbody2D>().AddForce(new Vector2(velocidade * -1, _forcaPedraY));
+                }
+                else
+                {
+                    goWeapon.GetComponent<Rigidbody2D>().AddForce(new Vector2(velocidade, _forcaPedraY));
+                }
+
             }
-            else
+            else if (tiroPedraIntensa == true)
             {
-                goWeapon.GetComponent<Rigidbody2D>().AddForce(new Vector2(velocidade, _forcaPedraY));
+                GameObject goWeapon = (GameObject)Instantiate(pedraPrefab, areaSpanwPedra.position, Quaternion.identity);
+                playerAnimator.SetTrigger("atackRock");
+
+                float velocidade;
+                if (contagemAtaque >= duracaoAtaque)
+                {
+                    velocidade = _velocidadePedraPotente;
+                }
+                else
+                {
+                    velocidade = _velocidadePedra;
+                }
+
+                if (_viradoParaEsquerda)
+                {
+                    goWeapon.GetComponent<Rigidbody2D>().AddForce(new Vector2(velocidade * -1, _forcaPedraY));
+                }
+                else
+                {
+                    goWeapon.GetComponent<Rigidbody2D>().AddForce(new Vector2(velocidade, _forcaPedraY));
+                }
+
             }
 
             contagemAtaque = 0f;
         }
 
         playerAnimator.SetBool("atacando", _atacando);
-
+        Destroy(BarraCriada);
     }
 
 
@@ -256,46 +330,56 @@ public class playerController : MonoBehaviour
 
     void GeraFumacaPulo()
     {
-        GameObject FumTemp = Instantiate(fumacaPrefab, areaSpawFumaca.position, transform.localRotation);
-        Destroy(FumTemp, 0.2f);
+        if (fumacaPulo == true)
+        {
+            GameObject FumTemp = Instantiate(fumacaPrefab, areaSpawFumaca.position, transform.localRotation);
+            Destroy(FumTemp, 0.2f);
+        }
     }
-
-    // void GerarNpc()
-    // {
-    //     //objPrefab, transform Position, location
-    //     GameObject Npc = Instantiate(npcPrefab, areaSpawNpc.position, transform.localRotation);
-    //     GameObject Npc2 = Instantiate(npcPrefab, areaSpawNpc2.position, transform.localRotation);
-
-    //     GameObject Npc3 = Instantiate(npcPrefab, areaSpawNpc3.position, transform.localRotation);
-    //     float escalaX = Npc3.transform.localScale.x * -1;
-    //     Npc3.transform.localScale = new Vector3(escalaX, Npc3.transform.localScale.y, Npc3.transform.localScale.z);
-
-    //     Destroy(Npc, 0.8f);
-    //     Destroy(Npc2, 0.8f);
-    //     Destroy(Npc3, 0.8f);
-    // }
 
     void OnTriggerEnter2D(Collider2D obj)
     {
-        if (obj.tag == "coletavel")
+        if (obj.gameObject.tag == "coletavel")
         {
             _GameController.tocarEfeitos(_GameController.AudioMoeda, 0.5f);
+            //Debug.Log("Coletado Coin Sem Fisca");
+            _GameController.getCoin();
             Destroy(obj.gameObject);
         }
         else if (obj.tag == "dano")
         {
-            StartCoroutine("danoController");
+            _GameController.getHit();
+
+            if (_GameController.quantVida > 0)
+            {
+                StartCoroutine("danoController");
+            }
+        }
+        else if (obj.tag == "placa")
+        {
+            _placaController.inativo = true;
+        }
+        else if (obj.tag == "abismo")
+        {
+            _GameController.quantVida = 0;
+            _GameController.VidaControl();
+            transform.gameObject.SetActive(false);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+            //TO BE CONTINUED
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D obj)
+    {
+        if (obj.tag == "placa")
+        {
+            _placaController.inativo = false;
         }
     }
 
     IEnumerator danoController()
     {
-
-        // HP -= 1;
-        // if (HP <= 0)
-        // {
-        //     //Debug.LogError("Game Over");
-        // }
 
         _GameController.tocarEfeitos(_GameController.AudioDanoPlayer, 0.5f);
         this.gameObject.layer = LayerMask.NameToLayer("Invencivel");
