@@ -1,10 +1,12 @@
 # Unity 2D Fundamentals
 
-Games desenvolidos por estudo de vídeo-aulas.
+Games desenvolvidos em vídeo-aulas.
 
+## Lista de Jogos
 - `/megaman running`
 - `/vanguards`
 
 &nbsp;
 
-Desenvolvido com 💜 
+
+Desenvolvido com muito 💜 
